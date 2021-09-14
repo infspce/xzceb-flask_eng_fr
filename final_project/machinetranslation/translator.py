@@ -2,7 +2,7 @@
 Create instance of IBM translator
 Define english to french and french to english translation functions
 """
-#import json
+import json
 import os
 from ibm_watson import LanguageTranslatorV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
